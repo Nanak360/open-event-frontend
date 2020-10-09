@@ -155,7 +155,7 @@
       <label for="privacy">{{t 'Privacy'}}</label>
       <div class="field">
         <div class="ui radio checkbox">
-          {{widgets/forms/radio-button this.value name='privacy' id='privacy_public' value='public' checked=this.data.speakersCall.privacy}}
+          {{widgets/forms/radio-button this.value name='privacy' id='privacy_public' value='public' checked=true}}
           <label for="privacy_public">
             <strong>{{t 'Public'}}:</strong>
             {{t 'Display this publicly. Anybody will be able to submit a proposal within the dates chosen, once the event is published.'}}
@@ -164,7 +164,7 @@
       </div>
       <div class="field">
         <div class="ui radio checkbox">
-          {{widgets/forms/radio-button this.value name='privacy' id='privacy_private' value='private' checked=this.data.speakersCall.privacy}}
+          {{widgets/forms/radio-button this.value name='privacy' id='privacy_private' value='private'}}
           <label for="privacy_private">
             <strong>{{t 'Private'}}:</strong>
             {{t 'Do not display this publicly. Proposals can be submitted only using the private link.'}}
